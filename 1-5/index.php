@@ -6,10 +6,9 @@ for($x=0;$x<$arrlength;$x++)
     echo $a[$x];
 }
 echo "<br>";
-for($x=0;$x<$arrlength;$x++)
+foreach (range('K ','A ') as $char)
 {
-    echo $a[$x];
-  
+    echo $char;
 }
 
 ?>
