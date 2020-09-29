@@ -1,24 +1,19 @@
 <?php
-$n=1; 
-function getName($n) { 
-    $characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; 
-    $randomString = ''; 
-  
-    for ($i = 0; $i < $n; $i++) { 
-        $index = rand(0, strlen($characters) - 1); 
-        $randomString .= $characters[$index]; 
-    } 
-  
-    return $randomString; 
-    if($n == 'K')
-    {
-        echo "on se k";
-    }
-} 
+$letters = range('A', 'Z'); //ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ 
+if($letter === 'K')
+{
+    echo "On se K";
+}
+if($letter === 'M')
+{
+    echo "Sittenkin M";
+}
 
-// KESKEN
 
+
+// häikkää
   
-echo getName($n); 
+
 
 ?>
